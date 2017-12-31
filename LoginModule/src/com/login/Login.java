@@ -18,7 +18,7 @@ public class Login extends HttpServlet {
 			throws ServletException, IOException {
 		
 		LoginDao dao=new LoginDao();
-
+        System.out.println("inside Login Servlet");
 		String uname = request.getParameter("uname");
 		String pass = request.getParameter("pass");
 		
